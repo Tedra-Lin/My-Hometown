@@ -1,3 +1,18 @@
+/* <!-- https://tourisminmyanmar.com.mm/destinations/pathein/ --> */
+
+:root{
+--indigo-dye: #0F4B74ff;
+--van-dyke: #3B2A2Bff;
+--rose-ebony: #5A3E39ff;
+--black-olive: #363D34ff;
+--ash-gray: #B9C8AEff;
+--burnt-sienna: #E77D50ff;
+--eerie-black: #232828ff;
+--olivine: #B6BF74ff;
+--sea-green: #5E8E6Cff;
+--syracuse-red-orange: #CB562Eff;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -14,37 +29,63 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(images/torshov-image.png);
+    background-image: url(images/Hero_Unbrella.jpg);
     background-size: cover;
     background-position: center;
     height: 340px;
 }
 
 #hero-section h1{
+    font-family: "Oleo Script", serif;
+    font-size: 70px;
     width: auto;
     height: auto;
     padding: 3px 10px;
     margin:0 auto 0 auto;
     color: #ffffff;
-    background-color:#1D3557;
-    border-radius: 5px;
+    text-shadow: -3px 0px 10px black;
 }
 
-#hero-section h2{
+/* #hero-section h2{
     width: auto;
     height: auto;
     padding: 3px 10px;
     margin:0 auto 0 auto;
     color: #ffffff;
-    background-color: #457B9D;
+    background-color: var(--sea-green);
     border-radius: 5px;
     margin-top: 10px;
+} */
+
+#facts-section{
+    padding: 40px 40px;
+    background-color: #ffffff;
+    color: var(--van-dyke);
+}
+
+.facts-box{
+    background-color: var(--olivine);
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--van-dyke);
+}
+.facts-box h3{
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.facts-box ul{
+    list-style-type: disc;
+    line-height: 30px;
 }
 
 #activities-section{
     padding: 40px 40px;
     color: #1D3557;
-    background-color: #F1FAEE;
+    background-color: #ffffff;
 }
 
 #activities-section h3{
