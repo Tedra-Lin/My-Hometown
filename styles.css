@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(images/torshov-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+}
+
+#hero-section h1{
+    width: auto;
+    height: auto;
+    padding: 3px 10px;
+    margin:0 auto 0 auto;
+    color: #ffffff;
+    background-color:#1D3557;
+    border-radius: 5px;
+}
+
+#hero-section h2{
+    width: auto;
+    height: auto;
+    padding: 3px 10px;
+    margin:0 auto 0 auto;
+    color: #ffffff;
+    background-color: #457B9D;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#activities-section{
+    padding: 40px 40px;
+    color: #1D3557;
+    background-color: #F1FAEE;
+}
+
+#activities-section h3{
+    font-size: 24px;
+    margin: 0;
+}
+
+.activities-menu{
+    padding: 50px 30px 0 30px;
+    display: flex;
+    justify-content: space-around; 
+    gap: 50px;
+}
+
+.activities-menu img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+#guide-section{
+    padding: 50px 150px;
+    color: #1D3557;
+}
+
+.profile-card{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #A8DADC;
+    padding: 20px 10px;
+    justify-content: space-between;
+    gap: 7px;
+    border-radius: 10px;
+    box-shadow: 0px 6px #1D3557;
+}
+    
+.profile-card img{
+    width: 200px;
+    height: auto;
+}
+
+.profile-card h3{
+    font-size: 24px;
+}
